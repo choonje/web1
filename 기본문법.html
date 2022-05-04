@@ -1,0 +1,71 @@
+<h1>**제목 연습**</h1>
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+<h3>h뒤에 숫자가 붙는다, 글자가 두꺼워진다, 숫자가 커지면 글씨가 작아진다.</h3>
+<h3>heading은 제목이라는 뜻이다. h1은 가낭 큰 제목 태그이다.</h3>
+
+<h1>**글씨 속성**</h1>
+<br><strong>strong</strong>을 사용하면 글자를 굵게 표시할 수 있다.<br>
+<strong><u>u</u></strong>를 사용하면 밑줄을 표시할 수 있다.
+
+<p></p><h1>br태그(줄바꿈)</h1>
+Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
+<br> br로 줄바꿈이 가능하다. 다만, br태그는 다른 태그들과는 다르게 /br을 사용하지 않는다.
+
+<h1>p태그(단락)</h1>
+Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
+Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages.
+HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+<p></p>blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page.
+It provides a means to create structured documents by denoting structural semantics for text such as headings,
+paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+<!-- 단락을 표현할 때는 줄바꿈 태그 (br)보다 단락을 표현하는 태그인 p태그가 좋다. -->
+<!-- p태그는 단락과 단락의 간격이 고정되어 있어 자유도가 떨어진다. -->
+<!-- br태그는 쓰는만큼 줄바꿈이 되기 때문에 원하는 만큼 간격을 줄 수 있는 장점이 있다. -->
+
+<h1>CSS코드활용</h1>
+ypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
+Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages.
+HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+</p><p style="margin-top:45px;">blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page.
+It provides a means to create structured documents by denoting structural semantics for text such as headings,
+paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+<!-- style="margin-top:45px;"를 p태그에 추가하면 p태그 위쪽에 45px만큼의 여백(margin)이 생긴다. -->
+
+<h1>문법 속성과 img(이미지)</h1>
+<img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png">
+<!-- img src="이미지링크"로 이미지 추가 가능 -->
+<!-- width="0 ~ 100%"로 이미지 사이즈 조정 가능 -->
+
+<h1>list태그와 ul태그의 관계</h1>
+<li>1. HTML</li>
+<li>2. CSS</li>
+<li>3. JavaScript</li>
+<!-- 위와 같이 목차로 구분하기 위해서는 li태그를 사용하면 된다. -->
+<li>김춘제</li>
+<li>박춘복</li>
+<li>오춘비</li>
+<!-- 목차와 참가자의 목록이 구분이 되지 않는다. 다른 목록과 구분할 수 있도록 경계표시가 필요한데, 이때 사용하는 태그가 ul(unordered list)태그이다. -->
+<ul>
+  <li>1. HTML</li>
+  <li>2. CSS</li>
+  <li>3. JavaScript</li>
+</ul>
+<ul>
+  <li>김춘제</li>
+  <li>박춘복</li>
+  <li>오춘비</li>
+</ul>
+<!-- li태그는 ul태그를 꼭 필요로 한다.<br> -->
+<!-- ul태그 역시 li태그가 없다면 존재 가치가 없다.<br> -->
+<!-- 만약 목록이 3개가 아니라 수백수천개라고 생각해보자. 누군가 수천개 중 하나를 지워달라고 하면 어떻게 해야할까?<br> -->
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+<!-- ol(ordered list)태그는 번호가 자동으로 새겨진다. -->

@@ -1,0 +1,62 @@
+<title>WEB1 - html</title>
+<meta charset="utf-8">
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+<h1>HTML</h1>
+<p>Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+</p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+</p>
+<!-- title태그는 웹에서 해당 웹의 탭에 나타나는 제목을 설정할 수 있다.-->
+<!-- meta charset="uft-8"은 영어가 아닌 문자가 깨지는 경우, 웹브라우저에게 utf-8로 출력하라고 명령하는 것과 같다.-->
+<!--<title>WEB1 - html</title>-->
+<!--<meta charset="utf-8">-->
+<!-- 위 두줄의 코드는 본문이 아닌, 본문을 설명하는 코드이다.-->
+* 참고로 주석은 cttl + /로 설정할 수 있다.<br>
+* 본문은 body태그로, 본문을 설명하는 태그는 head태그를 사용한다.<br>
+* 또한, body태그와 head태그를 감싸는 html태그를 두기로 한다.<br>
+* 또한, 이 웹페이지가 html로서 만들어졌다는 것을 표현하기 위해 문서의 시작에 !doctype html 코드를 추가한다.
+
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+</head>
+<<body>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+  <h1>HTML</h1>
+  <p>Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+  </p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+  </p>
+</body>
+</html>
+
+<h1>링크 거는 방법</h1>
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+</head>
+<<body>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+  <h1>HTML</h1>
+  <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5specitication">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+  </p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+  </p>
+</body>
+</html>
+<!-- target="_blank"는 링크를 클릭했을 때 새창에서 페이지가 열리게 하는 속성 -->
+<!-- title은 이 링크가 어떠한 속성을 가지고 있는지 툴팁으로 보여주는 기능 (링크에 커서 올려놓으면 작은상자안에 어떠한 내용인지 뜨는 것)-->
